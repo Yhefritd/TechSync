@@ -20,3 +20,5 @@ secrets.properties
 # --- Archivos del Sistema ---
 .DS_Store
 /out
+
+.kotlin/
