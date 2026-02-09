@@ -6,5 +6,4 @@ sealed class Screens(val route: String) {
     data object Dashboard : Screens("dashboard")
     data object Formulario : Screens("formulario")
     data object Detalle : Screens("detalle")
-
 }
