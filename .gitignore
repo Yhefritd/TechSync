@@ -1,1 +1,22 @@
- 
+# --- Android Studio & Gradle ---
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# --- Configuración del IDE (.idea) ---
+.idea/
+*.iml
+*.iws
+
+# --- Secretos y llaves (Importante para seguridad) ---
+google-services.json
+*.jks
+*.keystore
+secrets.properties
+
+# --- Archivos del Sistema ---
+.DS_Store
+/out
