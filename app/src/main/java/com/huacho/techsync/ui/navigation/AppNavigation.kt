@@ -16,22 +16,22 @@ fun AppNavigation(){
 
     NavHost(
         navController = navController,
-        startDestination = Screens.Formulario.route
+        startDestination = Screens.Login.route
     ){
         composable(route = Screens.Login.route){
-            LoginScreen()
+            LoginScreen(navController)
         }
         composable(route = Screens.Register.route){
-            RegisterScreen()
+            RegisterScreen(navController)
         }
         composable(route = Screens.Dashboard.route){
-            DashboardScreen()
+            DashboardScreen(navController)
         }
         composable(route = Screens.Formulario.route){
-            FormularioScreen()
+            FormularioScreen(navController)
         }
         composable(route = Screens.Detalle.route){
-            DetalleScreen()
+            DetalleScreen(navController)
         }
     }
 }
