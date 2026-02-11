@@ -25,11 +25,17 @@ fun LoginScreen(navController: NavHostController) {
     ) {
         Text(text = "Pantalla de Login")
         Spacer(modifier = Modifier.height(20.dp))
+
         Button(onClick = {
-            navController.navigate(Screens.Dashboard.route)
+            navController.navigate(Screens.Dashboard.route){
+                popUpTo(Screens.Login.route){
+                    inclusive = true
+                }
+            }
         }) {
             Text(text = "Ingresar")
         }
+
         ElevatedButton(onClick = {
             navController.navigate(Screens.Register.route)
         }) {

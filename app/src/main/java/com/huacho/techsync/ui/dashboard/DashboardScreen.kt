@@ -25,16 +25,14 @@ fun DashboardScreen(navController: NavHostController) {
     ) {
         Text(text = "Pantalla de Principal")
         Spacer(modifier = Modifier.height(20.dp))
-        Button(onClick = {
-            navController.popBackStack()
-        }) {
-            Text(text = "volver")
-        }
+
+
         ElevatedButton(onClick = {
             navController.navigate(Screens.Detalle.route)
         }) {
             Text(text = "Detalle de fallos")
         }
+
         ElevatedButton(onClick = {
             navController.navigate(Screens.Formulario.route)
         }) {
