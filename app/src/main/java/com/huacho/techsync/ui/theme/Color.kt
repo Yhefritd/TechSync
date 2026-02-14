@@ -12,5 +12,5 @@ val Pink40 = Color(0xFF7D5260)
 
 val MainBlue = Color(0xFF0B57D0)
 val SecondaryBlue = Color(0xFF004A77)
-val NeutralGray = Color(0xFF5F6368)
-val WhiteApp = Color(0xFFFFFF)
+val NeutralGray = Color(0xFF2D2D2F)
+val SoftGray = Color(0xFF96969A)
